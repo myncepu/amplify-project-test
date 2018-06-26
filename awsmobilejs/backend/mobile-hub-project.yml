@@ -9,14 +9,14 @@ features:
         paths:
           /items: !com.amazonaws.mobilehub.v0.Function 
             name: sampleLambda
-            codeFilename: uploads/sampleLambda.zip
+            codeFilename: uploads/sampleLambda-20180626215931.zip
             handler: lambda.handler
             enableCORS: true
             runtime: nodejs6.10
             environment: {}
           '/items/{proxy+}': !com.amazonaws.mobilehub.v0.Function 
             name: sampleLambda
-            codeFilename: uploads/sampleLambda.zip
+            codeFilename: uploads/sampleLambda-20180626215931.zip
             handler: lambda.handler
             enableCORS: true
             runtime: nodejs6.10
